@@ -65,7 +65,7 @@ public class Task1 {
             }
             System.out.println("Result: " + result);
         } catch (ArithmeticException ex) {
-            System.out.println("Error! " + ex.getMessage()); // معالجة القسمة على صفر
+            System.out.println("Error! " + ex.getMessage()); 
         }
 
        
