@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class Task1 {
 	
-	   static double add(double a, double b) {
-		   return a + b; 
+	   static double add(double num1, double num2) {
+		   return num1 + num2; 
 		}
 	
-	   static double subtract(double a, double b) {
-		   return a - b; 
+	   static double subtract(double num1, double num2) {
+		   return num1 - num2; 
 		}
 	   
-	   static double multiply(double a, double b) {
-		   return a * b; 
+	   static double multiply(double num1, double num2) {
+		   return num1* num2; 
 		}
 	   
 	   
-	   static double divide(double a, double b) {
-		    if (b == 0) {
+	   static double divide(double num1, double num2) {
+		    if (num2 == 0) {
 		        throw new ArithmeticException("Cannot divide by zero");
 		    }
-		    return a / b;
+		    return num1 / num2;
 		}
 	
 		
@@ -65,7 +65,7 @@ public class Task1 {
             }
             System.out.println("Result: " + result);
         } catch (ArithmeticException ex) {
-            System.out.println("Error! " + ex.getMessage()); 
+            System.out.println("Error! " + ex.getMessage());
         }
 
        
